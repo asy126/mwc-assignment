@@ -18,12 +18,16 @@ export class ListPage {
 
   constructor(public navCtrl: NavController) {
   }
-//  ,public navParams: NavParams
+//  remove ---->>>>  ,public navParams: NavParams
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad ListPage');
   }
 
   showcontent() {
     this.navCtrl.push(ContentPage);
+  
   }
+  // this.navCtrl.pop(); to get back to nav
+  
 }

@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController} from 'ionic-angular';
 
-/**
- * Generated class for the MenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {OfficePage} from '../office/office';
+import {TechPage} from '../tech/tech';
+import {HealthPage} from '../health/health';
+
 
 @IonicPage()
 @Component({
@@ -15,11 +13,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class MenuPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MenuPage');
   }
 
+  showoffice() {
+    this.navCtrl.push(OfficePage);
+  }
+  showtech() {
+    this.navCtrl.push(TechPage);
+  }
+  showhealth() {
+    this.navCtrl.push(HealthPage);
+  }
 }

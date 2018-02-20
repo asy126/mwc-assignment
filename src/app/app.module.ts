@@ -10,6 +10,12 @@ import {MenuPage} from '../pages/menu/menu';
 import {ListPage} from '../pages/list/list';
 import {ContentPage} from '../pages/content/content';
 
+import {OfficePage} from '../pages/office/office';
+import {TechPage} from '../pages/tech/tech';
+import {HealthPage} from '../pages/health/health';
+
+
+
 
 
 
@@ -22,7 +28,10 @@ import {ContentPage} from '../pages/content/content';
     HomePage,
     MenuPage,
     ListPage,
-    ContentPage
+    ContentPage,
+    OfficePage,
+    TechPage,
+    HealthPage
     
   ],
   imports: [
@@ -35,7 +44,10 @@ import {ContentPage} from '../pages/content/content';
     HomePage,
     MenuPage,
     ListPage,
-    ContentPage
+    ContentPage,
+    OfficePage,
+    TechPage,
+    HealthPage
     
    
 

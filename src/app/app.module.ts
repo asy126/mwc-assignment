@@ -14,10 +14,9 @@ import {OfficePage} from '../pages/office/office';
 import {TechPage} from '../pages/tech/tech';
 import {HealthPage} from '../pages/health/health';
 
-
-
-
-
+import {OfficeonePage} from '../pages/officeone/officeone';
+import {OfficetwoPage} from '../pages/officetwo/officetwo';
+import {OfficethreePage} from '../pages/officethree/officethree';
 
 
 
@@ -31,7 +30,10 @@ import {HealthPage} from '../pages/health/health';
     ContentPage,
     OfficePage,
     TechPage,
-    HealthPage
+    HealthPage,
+    OfficeonePage,
+    OfficetwoPage,
+    OfficethreePage
     
   ],
   imports: [
@@ -47,7 +49,11 @@ import {HealthPage} from '../pages/health/health';
     ContentPage,
     OfficePage,
     TechPage,
-    HealthPage
+    HealthPage,
+    OfficeonePage,
+    OfficetwoPage,
+    OfficethreePage
+    
     
    
 

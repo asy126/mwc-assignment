@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { TechonePage } from '../techone/techone';
+import { TechtwoPage } from '../techtwo/techtwo';
+import { TechthreePage } from '../techthree/techthree';
+
 /**
  * Generated class for the TechPage page.
  *
@@ -21,5 +25,20 @@ export class TechPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad TechPage');
   }
+
+  showtechone() {
+    this.navCtrl.push(TechonePage);
+  
+  }
+  showtechtwo() {
+    this.navCtrl.push(TechtwoPage);
+  
+  }
+  showtechthree() {
+    this.navCtrl.push(TechthreePage);
+  
+  }
+  
+
 
 }

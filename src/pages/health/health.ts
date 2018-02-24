@@ -27,15 +27,15 @@ export class HealthPage {
   }
 
   showcareone() {
-    this.navCtrl.push( CareonePage);
+    this.navCtrl.push(CareonePage);
   
   }
-  showcareteo() {
-    this.navCtrl.push( CaretwoPage);
+  showcaretwo() {
+    this.navCtrl.push(CaretwoPage);
   
   }
   showcarethree() {
-    this.navCtrl.push( CarethreePage);
+    this.navCtrl.push(CarethreePage);
   
   }
   

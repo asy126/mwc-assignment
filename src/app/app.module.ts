@@ -18,6 +18,13 @@ import {OfficeonePage} from '../pages/officeone/officeone';
 import {OfficetwoPage} from '../pages/officetwo/officetwo';
 import {OfficethreePage} from '../pages/officethree/officethree';
 
+import {TechonePage} from '../pages/techone/techone';
+import {TechtwoPage} from '../pages/techtwo/techtwo';
+import {TechthreePage} from '../pages/techthree/techthree';
+
+import {CareonePage} from '../pages/careone/careone';
+import {CaretwoPage} from '../pages/caretwo/caretwo';
+import {CarethreePage} from '../pages/carethree/carethree';
 
 
 
@@ -33,7 +40,14 @@ import {OfficethreePage} from '../pages/officethree/officethree';
     HealthPage,
     OfficeonePage,
     OfficetwoPage,
-    OfficethreePage
+    OfficethreePage,
+    TechonePage,
+    TechtwoPage,
+    TechthreePage,
+    CareonePage,
+    CaretwoPage,
+    CarethreePage
+
     
   ],
   imports: [
@@ -52,12 +66,15 @@ import {OfficethreePage} from '../pages/officethree/officethree';
     HealthPage,
     OfficeonePage,
     OfficetwoPage,
-    OfficethreePage
+    OfficethreePage,
+    TechonePage,
+    TechtwoPage,
+    TechthreePage,
+    CareonePage,
+    CaretwoPage,
+    CarethreePage
     
-    
-   
-
-
+  
 
 
   ],

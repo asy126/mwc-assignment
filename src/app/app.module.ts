@@ -7,8 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {MenuPage} from '../pages/menu/menu';
-import {ListPage} from '../pages/list/list';
-import {ContentPage} from '../pages/content/content';
+
+
 
 import {OfficePage} from '../pages/office/office';
 import {TechPage} from '../pages/tech/tech';
@@ -33,8 +33,8 @@ import {CarethreePage} from '../pages/carethree/carethree';
     MyApp,
     HomePage,
     MenuPage,
-    ListPage,
-    ContentPage,
+    
+    
     OfficePage,
     TechPage,
     HealthPage,
@@ -59,8 +59,8 @@ import {CarethreePage} from '../pages/carethree/carethree';
     MyApp,
     HomePage,
     MenuPage,
-    ListPage,
-    ContentPage,
+    
+  
     OfficePage,
     TechPage,
     HealthPage,

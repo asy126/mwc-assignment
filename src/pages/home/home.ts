@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {MenuPage} from '../menu/menu';
-import {ListPage} from '../list/list';
-import {ContentPage} from '../content/content';
+// import {ListPage} from '../list/list';
+// import {ContentPage} from '../content/content';
 
 
 
@@ -19,13 +19,13 @@ export class HomePage {
     this.navCtrl.push(MenuPage);
 }
 
-showlist() {
-  this.navCtrl.push(ListPage);
-}
+// showlist() {
+//   this.navCtrl.push(ListPage);
+// }
 
-showcontent() {
-  this.navCtrl.push(ContentPage);
-}
+// showcontent() {
+//   this.navCtrl.push(ContentPage);
+// }
 
 
 }

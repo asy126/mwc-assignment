@@ -12,6 +12,12 @@
 </ion-header>
 
 <ion-content padding>
+  <ion-list-header>
+    Username
+  </ion-list-header>
+  <ion-item *ngFor="let item of detailList$ | async">
+    {{details.Name}}
+  </ion-item>
   <br\><br\><br\><br\><br\><br\><br\>
   
 

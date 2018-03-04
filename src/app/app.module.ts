@@ -25,6 +25,10 @@ import {TechthreePage} from '../pages/techthree/techthree';
 import {CareonePage} from '../pages/careone/careone';
 import {CaretwoPage} from '../pages/caretwo/caretwo';
 import {CarethreePage} from '../pages/carethree/carethree';
+import {AngularFireModule} from 'angularfire2';
+import {FIREBASE_CONFIG} from './firebase.credentials';
+import {AngularFireDatabaseModule} from 'angularfire2/database';
+import { detailListServer } from '../server/detail-lists/detail-lists.server';
 
 
 
@@ -33,6 +37,7 @@ import {CarethreePage} from '../pages/carethree/carethree';
     MyApp,
     HomePage,
     MenuPage,
+    
     
     
     OfficePage,
@@ -52,14 +57,16 @@ import {CarethreePage} from '../pages/carethree/carethree';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(FIREBASE_CONFIG),
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
     MenuPage,
-    
+   
   
     OfficePage,
     TechPage,
@@ -81,7 +88,8 @@ import {CarethreePage} from '../pages/carethree/carethree';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    detailListServer
   ]
 })
 export class AppModule {}
